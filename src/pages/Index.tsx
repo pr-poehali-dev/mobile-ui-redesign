@@ -71,6 +71,33 @@ export default function Index() {
           </div>
 
           <div className="menu-grid">
+            {/* Бургеры */}
+            <div className="menu-card">
+              <span className="menu-tag" style={{ background: "var(--secondary)" }}>
+                Вкусно
+              </span>
+              <img
+                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Бургеры"
+              />
+              <div className="menu-card-body">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <h3>Бургеры</h3>
+                  <span className="price">350 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Готовим сочные бургеры на заказ. Свежие ингредиенты, домашний вкус — попробуйте!
+                </p>
+              </div>
+            </div>
+
             {/* Услуга 4 */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--primary)", color: "white" }}>
