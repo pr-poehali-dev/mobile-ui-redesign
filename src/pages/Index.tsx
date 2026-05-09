@@ -22,6 +22,15 @@ export default function Index() {
               <br />
               НАШ <span>КОМФОРТ</span>
             </h1>
+
+            <div className="mb-8 p-5 rounded-xl bg-white/80 border border-gray-200 text-left text-[#444] text-sm leading-relaxed">
+              <p className="font-semibold text-base mb-2 text-[#222]">Контактная информация компании «Комфорт +»</p>
+              <p>Компания «Комфорт +», предоставляющая разные услуги, доступна для связи следующим образом:</p>
+              <p className="mt-2">📞 Телефон: <a href="tel:+79021258767" className="font-medium text-[var(--primary)]">+7 (902) 125-87-67</a></p>
+              <p>🌐 Сайт: <a href="https://comfo1.nethouse.ru" target="_blank" rel="noopener noreferrer" className="font-medium text-[var(--primary)]">comfo1.nethouse.ru</a></p>
+              <p className="mt-2">Обращайтесь для получения консультаций и оформления заказов.</p>
+            </div>
+
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
               Компания «Комфорт +» — широкий спектр услуг для вашего дома и бизнеса. Качественно, надёжно и с заботой о каждом клиенте.
             </p>
