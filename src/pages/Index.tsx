@@ -144,6 +144,32 @@ export default function Index() {
                 </p>
               </div>
             </div>
+
+            {/* Услуга 4 */}
+            <div className="menu-card">
+              <span className="menu-tag" style={{ background: "var(--primary)", color: "white" }}>
+                Хендмейд
+              </span>
+              <img
+                src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Поделки из дерева"
+              />
+              <div className="menu-card-body">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <h3>Вырезание поделок из досок</h3>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Изготовление деревянных поделок и изделий на заказ: декор, таблички, фигурки и сувениры ручной работы.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
 
