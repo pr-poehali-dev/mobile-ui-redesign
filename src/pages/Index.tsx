@@ -209,6 +209,11 @@ export default function Index() {
                 comfo1.nethouse.ru
               </a>
             </li>
+            <li>
+              <a href="mailto:artemgerasimov5@mail.ru" style={{ color: "inherit", textDecoration: "none" }}>
+                artemgerasimov5@mail.ru
+              </a>
+            </li>
           </ul>
         </div>
         <div className="footer-bottom">
