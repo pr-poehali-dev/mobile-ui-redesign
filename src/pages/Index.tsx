@@ -171,6 +171,37 @@ export default function Index() {
             </div>
           </div>
         </section>
+
+        <section id="contacts" style={{ padding: "80px 20px", background: "var(--cream)" }}>
+          <div style={{ maxWidth: 800, margin: "0 auto", textAlign: "center" }}>
+            <h2 style={{ fontSize: "2rem", fontWeight: 800, marginBottom: 8 }}>Контакты</h2>
+            <p style={{ color: "#666", marginBottom: 40 }}>Свяжитесь с нами любым удобным способом</p>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: 24 }}>
+              <div style={{ background: "white", borderRadius: 16, padding: 32, boxShadow: "0 2px 12px rgba(0,0,0,0.07)" }}>
+                <div style={{ fontSize: 32, marginBottom: 12 }}>📞</div>
+                <h3 style={{ fontWeight: 700, marginBottom: 8 }}>Телефон</h3>
+                <a href="tel:+79021258767" style={{ color: "var(--primary)", fontWeight: 600, textDecoration: "none", fontSize: "1.1rem" }}>
+                  +7 (902) 125-87-67
+                </a>
+              </div>
+              <div style={{ background: "white", borderRadius: 16, padding: 32, boxShadow: "0 2px 12px rgba(0,0,0,0.07)" }}>
+                <div style={{ fontSize: 32, marginBottom: 12 }}>🌐</div>
+                <h3 style={{ fontWeight: 700, marginBottom: 8 }}>Сайт</h3>
+                <a href="https://comfo1.nethouse.ru" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)", fontWeight: 600, textDecoration: "none", fontSize: "1.1rem" }}>
+                  comfo1.nethouse.ru
+                </a>
+              </div>
+              <div style={{ background: "white", borderRadius: 16, padding: 32, boxShadow: "0 2px 12px rgba(0,0,0,0.07)" }}>
+                <div style={{ fontSize: 32, marginBottom: 12 }}>✉️</div>
+                <h3 style={{ fontWeight: 700, marginBottom: 8 }}>Email</h3>
+                <a href="mailto:artemgerasimov5@mail.ru" style={{ color: "var(--primary)", fontWeight: 600, textDecoration: "none", fontSize: "1.1rem" }}>
+                  artemgerasimov5@mail.ru
+                </a>
+              </div>
+            </div>
+            <p style={{ marginTop: 40, color: "#888" }}>Обращайтесь для получения консультаций и оформления заказов.</p>
+          </div>
+        </section>
       </main>
 
       <footer>
