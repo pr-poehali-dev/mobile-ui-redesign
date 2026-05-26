@@ -174,10 +174,12 @@ export default function Index() {
 
         <section style={{ padding: "60px 20px", background: "var(--primary)" }}>
           <div style={{ maxWidth: 700, margin: "0 auto", textAlign: "center" }}>
-            <div style={{ fontSize: 40, marginBottom: 16 }}>🚨</div>
-            <h2 style={{ fontSize: "2rem", fontWeight: 900, color: "white", marginBottom: 12 }}>Нужна срочная помощь?</h2>
+            <div style={{ display: "inline-block", background: "rgba(255,255,255,0.2)", color: "white", fontWeight: 800, fontSize: "0.85rem", padding: "6px 18px", borderRadius: 50, marginBottom: 16, letterSpacing: 1 }}>
+              ВАКАНСИЯ
+            </div>
+            <h2 style={{ fontSize: "2rem", fontWeight: 900, color: "white", marginBottom: 12 }}>Требуется Помощник</h2>
             <p style={{ color: "rgba(255,255,255,0.85)", fontSize: "1.1rem", marginBottom: 32 }}>
-              Наш помощник готов принять ваш звонок прямо сейчас — работаем оперативно!
+              Срочно ищем помощника! Если вы готовы приступить к работе — звоните прямо сейчас.
             </p>
             <a href="tel:+79021258767">
               <button style={{ background: "white", color: "var(--primary)", fontWeight: 800, fontSize: "1.2rem", padding: "18px 40px", borderRadius: 50, border: "none", cursor: "pointer", boxShadow: "0 4px 20px rgba(0,0,0,0.2)", letterSpacing: 0.5 }}>
