@@ -4,7 +4,7 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">КОМФОРТ<span style={{ color: "var(--primary)" }}>+</span></div>
+        <div className="logo">ДЕЛОВОЙ КАЙФ</div>
         <nav>
           <a href="#">Услуги</a>
           <a href="#">О нас</a>
@@ -20,19 +20,19 @@ export default function Index() {
             <h1 className="hero-title">
               ВАШИ ЗАДАЧИ —
               <br />
-              НАШ <span>КОМФОРТ</span>
+              НАШ <span>КАЙФ</span>
             </h1>
 
             <div className="mb-8 p-5 rounded-xl bg-white/80 border border-gray-200 text-left text-[#444] text-sm leading-relaxed">
-              <p className="font-semibold text-base mb-2 text-[#222]">Контактная информация компании «Комфорт +»</p>
-              <p>Компания «Комфорт +», предоставляющая разные услуги, доступна для связи следующим образом:</p>
+              <p className="font-semibold text-base mb-2 text-[#222]">Контактная информация компании «Деловой Кайф»</p>
+              <p>Компания «Деловой Кайф», предоставляющая разные услуги, доступна для связи следующим образом:</p>
               <p className="mt-2">📞 Телефон: <a href="tel:+79021258767" className="font-medium text-[var(--primary)]">+7 (902) 125-87-67</a></p>
               <p>🌐 Сайт: <a href="https://comfo1.nethouse.ru" target="_blank" rel="noopener noreferrer" className="font-medium text-[var(--primary)]">comfo1.nethouse.ru</a></p>
               <p className="mt-2">Обращайтесь для получения консультаций и оформления заказов.</p>
             </div>
 
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
-              Компания «Комфорт +» — широкий спектр услуг для вашего дома и бизнеса. Качественно, надёжно и с заботой о каждом клиенте.
+              Компания «Деловой Кайф» — широкий спектр услуг для вашего дома и бизнеса. Качественно, надёжно и с заботой о каждом клиенте.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <a href="tel:+79021258767">
@@ -62,8 +62,8 @@ export default function Index() {
 
         <div className="marquee">
           <div className="marquee-content">
-            &nbsp; * ПРОФЕССИОНАЛЬНЫЕ УСЛУГИ * НАДЁЖНЫЙ ПАРТНЁР * КОМФОРТ ДЛЯ КАЖДОГО * ЗВОНИТЕ НАМ * РАБОТАЕМ ПО ВСЕМУ ГОРОДУ *
-            ПРОФЕССИОНАЛЬНЫЕ УСЛУГИ * НАДЁЖНЫЙ ПАРТНЁР * КОМФОРТ ДЛЯ КАЖДОГО * ЗВОНИТЕ НАМ * РАБОТАЕМ ПО ВСЕМУ ГОРОДУ
+            &nbsp; * ПРОФЕССИОНАЛЬНЫЕ УСЛУГИ * НАДЁЖНЫЙ ПАРТНЁР * ДЕЛОВОЙ КАЙФ * ЗВОНИТЕ НАМ * РАБОТАЕМ ПО ВСЕМУ ГОРОДУ *
+            ПРОФЕССИОНАЛЬНЫЕ УСЛУГИ * НАДЁЖНЫЙ ПАРТНЁР * ДЕЛОВОЙ КАЙФ * ЗВОНИТЕ НАМ * РАБОТАЕМ ПО ВСЕМУ ГОРОДУ
           </div>
         </div>
 
@@ -80,7 +80,6 @@ export default function Index() {
           </div>
 
           <div className="menu-grid">
-            {/* Бургеры */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--secondary)" }}>
                 Вкусно
@@ -107,7 +106,6 @@ export default function Index() {
               </div>
             </div>
 
-            {/* Услуга 4 */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--primary)", color: "white" }}>
                 Хендмейд
@@ -140,7 +138,7 @@ export default function Index() {
           <div>
             <h2 className="vibe-title">МЫ ЗДЕСЬ ДЛЯ ВАС.</h2>
             <p className="vibe-text">
-              «Комфорт +» — это команда профессионалов, которая ценит ваше время и доверие. Мы работаем честно, оперативно и с душой.
+              «Деловой Кайф» — это команда профессионалов, которая ценит ваше время и доверие. Мы работаем честно, оперативно и с душой.
               Обращайтесь за консультацией или оформлением заказа — всегда рады помочь!
             </p>
             <a href="tel:+79021258767">
@@ -205,79 +203,25 @@ export default function Index() {
               <div style={{ background: "white", borderRadius: 16, padding: 32, boxShadow: "0 2px 12px rgba(0,0,0,0.07)" }}>
                 <div style={{ fontSize: 32, marginBottom: 12 }}>🌐</div>
                 <h3 style={{ fontWeight: 700, marginBottom: 8 }}>Сайт</h3>
-                <a href="https://comfo1.nethouse.ru" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)", fontWeight: 600, textDecoration: "none", fontSize: "1.1rem" }}>
+                <a href="https://comfo1.nethouse.ru" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)", fontWeight: 600, textDecoration: "none" }}>
                   comfo1.nethouse.ru
                 </a>
               </div>
-              <div style={{ background: "white", borderRadius: 16, padding: 32, boxShadow: "0 2px 12px rgba(0,0,0,0.07)" }}>
-                <div style={{ fontSize: 32, marginBottom: 12 }}>✉️</div>
-                <h3 style={{ fontWeight: 700, marginBottom: 8 }}>Email</h3>
-                <a href="mailto:artemgerasimov5@mail.ru" style={{ color: "var(--primary)", fontWeight: 600, textDecoration: "none", fontSize: "1.1rem" }}>
-                  artemgerasimov5@mail.ru
-                </a>
-              </div>
             </div>
-            <p style={{ marginTop: 40, color: "#888" }}>Обращайтесь для получения консультаций и оформления заказов.</p>
           </div>
         </section>
       </main>
 
-      <footer>
-        <div>
-          <div className="footer-logo">КОМФОРТ+</div>
-          <p style={{ color: "#666", lineHeight: 1.6 }}>
-            Профессиональные услуги для вашего дома и бизнеса. Обращайтесь — всегда рады помочь!
+      <footer style={{ background: "var(--dark)", color: "white", padding: "40px 20px", textAlign: "center" }}>
+        <div style={{ maxWidth: 800, margin: "0 auto" }}>
+          <div style={{ fontSize: "1.5rem", fontWeight: 900, marginBottom: 12 }}>ДЕЛОВОЙ КАЙФ</div>
+          <p style={{ color: "rgba(255,255,255,0.6)", marginBottom: 16 }}>Качественные услуги для вашего дома и бизнеса</p>
+          <a href="tel:+79021258767" style={{ color: "var(--primary)", fontWeight: 700, textDecoration: "none" }}>
+            +7 (902) 125-87-67
+          </a>
+          <p style={{ color: "rgba(255,255,255,0.4)", marginTop: 24, fontSize: "0.85rem" }}>
+            © 2024 Деловой Кайф. Все права защищены.
           </p>
-        </div>
-        <div className="footer-links">
-          <h4>Навигация</h4>
-          <ul>
-            <li>
-              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Услуги
-              </a>
-            </li>
-            <li>
-              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                О нас
-              </a>
-            </li>
-            <li>
-              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Политика
-              </a>
-            </li>
-            <li>
-              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Условия
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div className="footer-links">
-          <h4>Контакты</h4>
-          <ul>
-            <li>
-              <a href="tel:+79021258767" style={{ color: "inherit", textDecoration: "none" }}>
-                +7 (902) 125-87-67
-              </a>
-            </li>
-            <li>
-              <a href="https://comfo1.nethouse.ru" target="_blank" style={{ color: "inherit", textDecoration: "none" }}>
-                comfo1.nethouse.ru
-              </a>
-            </li>
-            <li>
-              <a href="mailto:artemgerasimov5@mail.ru" style={{ color: "inherit", textDecoration: "none" }}>
-                artemgerasimov5@mail.ru
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div className="footer-bottom">
-          <span>2026 КОМФОРТ+</span>
-          <span>ВАШИ ЗАДАЧИ — НАШ КОМФОРТ</span>
-          <span>ВАШ НАДЁЖНЫЙ ПАРТНЁР</span>
         </div>
       </footer>
     </>
