@@ -170,6 +170,29 @@ export default function Index() {
           </div>
         </section>
 
+        <section style={{ padding: "60px 20px", background: "#f0f7ff", borderTop: "4px solid #0077ff" }}>
+          <div style={{ maxWidth: 700, margin: "0 auto", textAlign: "center" }}>
+            <div style={{ display: "inline-block", background: "#0077ff", color: "white", fontWeight: 800, fontSize: "0.85rem", padding: "6px 18px", borderRadius: 50, marginBottom: 16, letterSpacing: 1 }}>
+              🎁 ПРОМОКОД
+            </div>
+            <h2 style={{ fontSize: "2rem", fontWeight: 900, color: "#111", marginBottom: 12 }}>Скидка по промокоду</h2>
+            <p style={{ color: "#444", fontSize: "1.1rem", marginBottom: 24 }}>
+              Вступите в наше сообщество ВКонтакте и при заказе укажите промокод — получите специальную скидку!
+            </p>
+            <div style={{ display: "inline-block", background: "white", border: "3px dashed #0077ff", borderRadius: 16, padding: "20px 48px", marginBottom: 28 }}>
+              <div style={{ fontSize: "0.85rem", color: "#888", marginBottom: 6, fontWeight: 600, letterSpacing: 1 }}>ВАШ ПРОМОКОД</div>
+              <div style={{ fontSize: "2.2rem", fontWeight: 900, color: "#0077ff", letterSpacing: 3 }}>ЛЕТО2026</div>
+            </div>
+            <br />
+            <a href="https://vk.ru/club238740831" target="_blank" rel="noopener noreferrer">
+              <button style={{ background: "#0077ff", color: "white", fontWeight: 800, fontSize: "1.1rem", padding: "16px 40px", borderRadius: 50, border: "none", cursor: "pointer", boxShadow: "0 4px 20px rgba(0,119,255,0.3)", letterSpacing: 0.5 }}>
+                Перейти в сообщество ВКонтакте
+              </button>
+            </a>
+            <p style={{ color: "#888", marginTop: 16, fontSize: "0.9rem" }}>Сделайте заказ в сообществе и укажите промокод ЛЕТО2026</p>
+          </div>
+        </section>
+
         <section style={{ padding: "60px 20px", background: "var(--primary)" }}>
           <div style={{ maxWidth: 700, margin: "0 auto", textAlign: "center" }}>
             <div style={{ display: "inline-block", background: "rgba(255,255,255,0.2)", color: "white", fontWeight: 800, fontSize: "0.85rem", padding: "6px 18px", borderRadius: 50, marginBottom: 16, letterSpacing: 1 }}>
