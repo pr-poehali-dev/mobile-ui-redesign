@@ -133,6 +133,32 @@ export default function Index() {
             </div>
 
             <div className="menu-card">
+              <span className="menu-tag" style={{ background: "#fff3e0", color: "#e65100" }}>
+                Хендмейд
+              </span>
+              <img
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Выжигание поделок"
+              />
+              <div className="menu-card-body">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <h3>Выжигание поделок</h3>
+                  <span className="price">500 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Выжигаем узоры, надписи и рисунки на дереве. Уникальные подарки и сувениры ручной работы на заказ.
+                </p>
+              </div>
+            </div>
+
+            <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--primary)", color: "white" }}>
                 Хендмейд
               </span>
