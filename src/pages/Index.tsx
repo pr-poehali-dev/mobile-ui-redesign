@@ -107,6 +107,32 @@ export default function Index() {
             </div>
 
             <div className="menu-card">
+              <span className="menu-tag" style={{ background: "var(--secondary)" }}>
+                Вкусно
+              </span>
+              <img
+                src="https://images.unsplash.com/photo-1612392166886-ee800c0b7e0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Хот-дог"
+              />
+              <div className="menu-card-body">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <h3>Хот-дог</h3>
+                  <span className="price">199 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Сытный хот-дог с сочной сосиской и свежими добавками. Быстро и вкусно!
+                </p>
+              </div>
+            </div>
+
+            <div className="menu-card">
               <span className="menu-tag" style={{ background: "#e8f4fd", color: "#0077ff" }}>
                 Напитки
               </span>
