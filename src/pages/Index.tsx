@@ -137,6 +137,32 @@ export default function Index() {
                 Напитки
               </span>
               <img
+                src="https://images.unsplash.com/photo-1497534446932-c925b458314e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Лёд фруктовый"
+              />
+              <div className="menu-card-body">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <h3>Лёд фруктовый</h3>
+                  <span className="price">40 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Освежающий фруктовый лёд — отличный способ охладиться в жаркий день!
+                </p>
+              </div>
+            </div>
+
+            <div className="menu-card">
+              <span className="menu-tag" style={{ background: "#e8f4fd", color: "#0077ff" }}>
+                Напитки
+              </span>
+              <img
                 src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
                 alt="Молочный коктейль"
               />
