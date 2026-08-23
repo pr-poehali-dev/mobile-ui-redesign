@@ -185,6 +185,32 @@ export default function Index() {
             </div>
 
             <div className="menu-card">
+              <span className="menu-tag" style={{ background: "#e0f7fa", color: "#00838f" }}>
+                Услуги
+              </span>
+              <img
+                src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Большая профессиональная чистка телефона"
+              />
+              <div className="menu-card-body">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <h3>Большая (профессиональная) чистка телефона</h3>
+                  <span className="price">70 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Тщательная профессиональная чистка телефона от пыли и грязи, включая труднодоступные места.
+                </p>
+              </div>
+            </div>
+
+            <div className="menu-card">
               <span className="menu-tag" style={{ background: "#e8f4fd", color: "#0077ff" }}>
                 Напитки
               </span>
