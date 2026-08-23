@@ -133,6 +133,58 @@ export default function Index() {
             </div>
 
             <div className="menu-card">
+              <span className="menu-tag" style={{ background: "var(--secondary)" }}>
+                Вкусно
+              </span>
+              <img
+                src="https://images.unsplash.com/photo-1553909489-cd47e0907980?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Сендвич"
+              />
+              <div className="menu-card-body">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <h3>Сендвич</h3>
+                  <span className="price">200 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Свежий сытный сендвич с любимой начинкой. Готовим на заказ из качественных продуктов!
+                </p>
+              </div>
+            </div>
+
+            <div className="menu-card">
+              <span className="menu-tag" style={{ background: "#e0f7fa", color: "#00838f" }}>
+                Услуги
+              </span>
+              <img
+                src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Маленькая чистка"
+              />
+              <div className="menu-card-body">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <h3>Маленькая чистка</h3>
+                  <span className="price">30 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Быстрая чистка небольших вещей и поверхностей. Аккуратно и оперативно.
+                </p>
+              </div>
+            </div>
+
+            <div className="menu-card">
               <span className="menu-tag" style={{ background: "#e8f4fd", color: "#0077ff" }}>
                 Напитки
               </span>
